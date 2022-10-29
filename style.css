@@ -1,0 +1,112 @@
+
+
+
+body{
+    background-image: url(images/Bakgrundlol2.jpg);
+    width: 1200px;
+    height:600px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding:0;
+}
+#mystiskman{
+    height: 250px;
+    width: 290px;
+    border-radius: 30%;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 29%;
+    border: solid grey 30px;
+    float: left;
+
+}
+.media{
+    width: 350px;
+    height: 100px;
+    background-color: grey;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.linkedin{
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 30px;
+    align-content: center;
+}
+.facebook{
+    width: 70px;
+    height: 65px;
+    margin-top: auto;
+    margin-left: 30px;
+    align-content: center;
+}
+.twitter{
+    width: 70px;
+    height: 65px;
+    margin-top: auto;
+    margin-left: 40px;
+    align-content: center;
+}
+.info{
+    height: 420px;
+    width: 1060px;
+    background: gray;
+    float: right;
+    position: absolute;
+    margin-left: 28%;
+    text-align: center;
+    border-radius: 25px;
+}
+.test{
+    height: 470px;
+    width: 1060px;
+    background: gray;
+    float: right;
+    margin-left: 28%;
+    text-align: center;
+    border-radius: 25px;
+}
+.inforuta{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    border-radius: 29px;
+    text-align:center ;
+    flex-direction: row;
+}
+
+.Ruta{
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    margin-left: 100px;
+    border: solid grey 29px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.dropdown {
+    width: 150px;
+    height: 70px;
+    margin-top: 300px;
+    flex-direction: row;
+    background-color:white;
+    justify-content: space-between;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
